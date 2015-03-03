@@ -1,0 +1,82 @@
+				body{
+				background                : linear-gradient(#E0E0E0,#A4A4A4);
+				}
+				
+				#calculadora{
+				height                    : 600px;
+				width                     : 400px;
+				margin                    : 0 auto;
+				background                : #434343;
+				border                    : 1px solid;
+				border-radius             : 10px;
+				box-shadow                : 8px 8px 8px rgba(0,0,0,0.4);
+				border-color              : #717171;
+				}
+				#result{
+				width                     : 100px;
+				height                    : 18px;
+				text-align                : right;
+				font-size                 : 18px;
+				color                     : white;
+				position                  : absolute;
+				top                       :2px;
+				left                      : 2px;
+				}
+				
+				.pantalla{
+				
+				width                     : 400px;
+				height                    : 100px;
+				background                : linear-gradient(#434343,#5E5E5E);
+				border-radius             : 10px 10px 0px 0px;
+				box-shadow                : inset 0px 0px 15px rgba(0,0,0,0.7);
+				position                  : relative;
+				}
+				
+				#resultado{
+				float                     : right;
+				margin-right              : 10px;
+				text-align                : center;
+				color                     : white;
+				margin-top                : 25px;
+				font-size                 : 50px;
+				
+				}
+				
+				div span {
+				float                     : left;
+				position                  : relative;
+				top                       : 0;
+				
+				cursor                    : pointer;
+				
+				width                     : 98px;
+				height                    : 98px;
+				background                : red;
+				
+				border                    : 1px solid;
+				border-color              : #717171;
+				text-align                : center;
+				line-height               : 98px;
+				
+				font-size                 : 50px;
+				}
+				.operador{
+				background                : orange;
+				}
+				.cero{
+				width                     : 198px;
+				background                : #D3D3D3;
+				border-bottom-left-radius : 10px;
+				}
+				.numeros{
+				background                : #D3D3D3;
+				}
+				.igual{
+				background                : #00C20F;
+				border-bottom-right-radius: 10px;
+				}
+				
+				.press{
+				box-shadow                : inset 0px 0px 20px rgba(0,0,0,0.8);
+				}

@@ -27,10 +27,11 @@
 				
 				width                     : 400px;
 				height                    : 100px;
-				background                : linear-gradient(#434343,#5E5E5E);
+				background                : linear-gradient(#434343,#848484);
 				border-radius             : 10px 10px 0px 0px;
 				box-shadow                : inset 0px 0px 15px rgba(0,0,0,0.7);
 				position                  : relative;
+				overflow                  : hidden;
 				}
 				
 				#resultado{
